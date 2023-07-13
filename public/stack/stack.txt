@@ -1,0 +1,25 @@
+
+React   Node
+Typecript Epre
+Html      Javacript
+C         Net.j
+tailind   mongodb
+bootrap   mql
+Git       api*
+Oauth     Jon
+
+mui      jquery
+Vercel   Heroku
+Netlify  pasport
+github   vcode
+npm      potman
+
+
+
+
+
+
+
+
+
+
