@@ -48,7 +48,7 @@ body {
 .incomplete-border::before {
   top: 0;
   left: 0;
-  width: 2rem;
+  width: 10%;
   height: 5rem;
   border-top-left-radius: 0.75rem;
   border-right: none;
@@ -94,3 +94,10 @@ body {
   animation: gradient 1.5s ease infinite alternate;
 }
 
+.project-image {
+  padding: .75rem;
+  background: rgba(255, 255, 255, .3);
+  border-radius: 1.75rem;
+  box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%), inset 0 1px rgba(255, 255, 255, .6);
+  backdrop-filter: blur(4px);
+}
