@@ -42,7 +42,7 @@ body {
 .incomplete-border::after {
   content: "";
   position: absolute;
-  background:  linear-gradient(to bottom right, rgba(230, 230, 255), rgb(230, 230, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+  background:  linear-gradient(to bottom right, rgba(233, 233, 255), rgb(233, 233, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
 }
 
 .incomplete-border::before {
@@ -60,7 +60,7 @@ body {
 .incomplete-border::after {
   bottom: 0;
   right: 0;
-  width: 2rem;
+  width: 10%;
   height: 5rem;
   border-bottom-right-radius: 0.75rem;
   border-left: none;
