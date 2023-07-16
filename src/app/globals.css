@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 230, 235, 236; /* Lighter gray */
@@ -32,72 +26,5 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* GLOBAL END HERE */
 
-.incomplete-border {
-  position: relative;
-  border-radius: 0.75rem;
-}
-
-.incomplete-border::before,
-.incomplete-border::after {
-  content: "";
-  position: absolute;
-  background:  linear-gradient(to bottom right, rgba(233, 233, 255), rgb(233, 233, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
-}
-
-.incomplete-border::before {
-  top: 0;
-  left: 0;
-  width: 10%;
-  height: 5rem;
-  border-top-left-radius: 0.75rem;
-  border-right: none;
-  border-bottom: none;
-  border-top: 0.25rem solid transparent;
-  border-left: 0.25rem solid transparent;
-}
-
-.incomplete-border::after {
-  bottom: 0;
-  right: 0;
-  width: 10%;
-  height: 5rem;
-  border-bottom-right-radius: 0.75rem;
-  border-left: none;
-  border-top: none;
-  border-bottom: 0.25rem solid transparent;
-  border-right: 0.25rem solid transparent;
-}
-
-@keyframes gradient {
-  0% {
-    background-image: linear-gradient(to right, rgb(215, 215, 255), rgb(170, 155, 255))  
-  }
-  20% {
-    background-image: linear-gradient(to right, rgb(215, 215, 255) 48%, rgb(170, 155, 255) 88%, rgb(215, 215, 255))  
-  }
-  40% {
-      background-image: linear-gradient(to right, rgb(215, 215, 255) 36%, rgb(170, 155, 255) 76%, rgb(215, 215, 255))  
-    }
-  60% {
-    background-image: linear-gradient(to right, rgb(215, 215, 255) 24%, rgb(170, 155, 255) 64%, rgb(215, 215, 255))  
-  }
-  80% {
-    background-image: linear-gradient(to right, rgb(215, 215, 255) 12%, rgb(170, 155, 255) 52%, rgb(215, 215, 255))  
-  }
-  100% {
-    background-image: linear-gradient(to left, rgb(215, 215, 255), rgb(170, 155, 255))  
-  }
-}
-
-.animate-gradient {
-  animation: gradient 1.5s ease infinite alternate;
-}
-
-.project-image {
-  padding: .75rem;
-  background: rgba(255, 255, 255, .3);
-  border-radius: 1.75rem;
-  box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%), inset 0 1px rgba(255, 255, 255, .6);
-  backdrop-filter: blur(4px);
-}
