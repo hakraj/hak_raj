@@ -40,7 +40,7 @@ const Stack = () => {
           )
         })}
       </div>
-      <div onClick={() => { setStack(!stack) }} className='absolute z-10 bottom-4 right-6 text-xs text-violet-900 font-mono cursor-pointer'>{!stack ? "see more" : "go back"}</div>
+      <div onClick={() => { setStack(!stack) }} className=' hidden absolute z-10 bottom-4 right-6 text-xs text-violet-900 font-mono cursor-pointer'>{!stack ? "see more" : "go back"}</div>
     </div>
 
   )

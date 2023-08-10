@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: light dark;
+}
+
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 230, 235, 236; /* Lighter gray */
   --background-end-rgb: 230, 230, 255; /* Light lavender */

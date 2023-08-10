@@ -4,6 +4,7 @@
 import styles from "../../styles.module.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { monofett } from "../../fonts";
 import { useEffect } from 'react';
 
 
@@ -26,20 +27,28 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='bookclub  flex flex-wrap items-center justify-between mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='notify  flex flex-wrap items-center justify-between mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 min-w-[6rem]  m-8' data-aos="fade-right" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/logo-bookclub.svg" alt="Degreed logo" className='dark:invert max-w-[7rem] mb-8' />
-          <h2 className='text-2xl font-medium my-8 '>Pivoting to an enterprise book learning platform.</h2>
+          <h1 className={`text-[#f5ba13] text-4xl ${monofett.className} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > notify </h1>
+          <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <h2 className='text-2xl font-medium my-8 hover:tet-underline '>Stay Informed, Share ideas. Elevate your experience with notify.</h2>
+          </a>
         </div>
 
-        <div className={`w-[30%] md:w-1/5 sm:rounded-[3rem] max-sm:p-1 max-sm:rounded-[1.5rem] ${styles.project} mb-[6vw]`} data-aos="zoom-out-up" data-aos-delay="200" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/project-bookclub.png" alt="Screenshot of the Degreed product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+        <div className={`w-[30%] md:w-1/5 sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem] ${styles.project} mb-[6vw]`} data-aos="zoom-out-up" data-aos-delay="200" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+          <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src="/eg-img/notify/mobile.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+          </a>
         </div>
-        <div className={`w-[30%] md:w-1/5 ${styles.project} sm:rounded-[3rem] max-sm:p-1 max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/project-bookclub-2.png" alt="Screenshot of the Degreed product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+        <div className={`w-[30%] md:w-1/5 ${styles.project} sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+          <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src="/eg-img/notify/mobile-eplore.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+          </a>
         </div>
-        <div className={`w-[30%] md:w-1/5 ${styles.project} mt-[6vw] sm:rounded-[3rem] max-sm:p-1 max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/project-bookclub-3.png" alt="Screenshot of the Degreed product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+        <div className={`w-[30%] md:w-1/5 ${styles.project} mt-[6vw] sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+          <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src="/eg-img/notify/mobile-id.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+          </a>
         </div>
       </div>
 
