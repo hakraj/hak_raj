@@ -6,6 +6,9 @@
   backdrop-filter: blur(4px);
 }
 
+.fontsans {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .incomplete {
   position: relative;

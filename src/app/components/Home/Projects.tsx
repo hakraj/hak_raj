@@ -52,13 +52,16 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='codespace flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='pennywise flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/project-codespace.png" alt="Screenshot of the Degreed product" className="block max-w-full rounded-xl sm:rounded-2xl" />
+          <img src="/eg-img/Pennywise/pennywise-mac.png" alt="Screenshot of the Pennywise product" className="block max-w-full rounded-xl sm:rounded-2xl" />
         </div>
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/logo-codespace.svg" alt="Degreed logo" className='dark:invert max-w-[7rem] mb-8' />
-          <h2 className='text-2xl font-medium my-8 '>Designing a MacOS app to deploy static websites.</h2>
+          <h1 className={`text-[#0d6efd] font-medium text-3xl ${styles.fontsans} ${monofett.className} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > Pennywise </h1>
+          <a href="https://pennywise-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <h2 className='text-2xl font-medium my-8 hover:tet-underline '>Sparking Innovation, Transform Your Banking Experience with Pennywise.</h2>
+          </a>
+
         </div>
       </div>
 
