@@ -29,7 +29,7 @@ const Projects = () => {
 
       <div className='notify  flex flex-wrap items-center justify-between mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 min-w-[6rem]  m-8' data-aos="fade-right" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <h1 className={`text-[#f5ba13] text-4xl ${monofett.className} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > notify </h1>
+          <h1 className={`text-[#f5ba13] text-4xl max-sm:text-3xl ${monofett.className} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > notify </h1>
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <h2 className='text-2xl font-medium my-8 hover:tet-underline '>Stay Informed, Share ideas. Elevate your experience with notify.</h2>
           </a>
@@ -57,9 +57,9 @@ const Projects = () => {
           <img src="/eg-img/Pennywise/pennywise-mac.png" alt="Screenshot of the Pennywise product" className="block max-w-full rounded-xl sm:rounded-2xl" />
         </div>
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <h1 className={`text-[#0d6efd] font-medium text-3xl ${styles.fontsans} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > Pennywise </h1>
+          <h1 className={`text-[#0d6efd] font-bold text-3xl max-sm:text-2xl  ${styles.fontsans} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > Pennywise </h1>
           <a href="https://pennywise-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <h2 className='text-2xl font-medium my-8 hover:tet-underline '>Sparking Innovation, Transform Your Banking Experience with Pennywise.</h2>
+            <h2 className='text-2xl font-medium my-8 hover:tet-underline '>Transform Your Banking Experience with Pennywise.</h2>
           </a>
 
         </div>
