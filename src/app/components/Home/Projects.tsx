@@ -54,7 +54,9 @@ const Projects = () => {
 
       <div className='pennywise flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <img src="/eg-img/Pennywise/pennywise-mac.png" alt="Screenshot of the Pennywise product" className="block max-w-full rounded-xl sm:rounded-2xl" />
+          <a href="https://pennywise-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src="/eg-img/Pennywise/pennywise-mac.png" alt="Screenshot of the Pennywise product" className="block max-w-full rounded-xl sm:rounded-2xl" />
+          </a>
         </div>
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <h1 className={`text-[#0d6efd] font-bold text-3xl max-sm:text-2xl  ${styles.fontsans} dark:invert max-w-[7rem] mb-8 cursor-pointer`} > Pennywise </h1>
