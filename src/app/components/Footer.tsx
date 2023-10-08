@@ -12,9 +12,11 @@ const Footer = () => {
           <Logo />
         </div>
         <FooterInfo />
-        <div className='absolute right-4 bottom-4 '>
-          <Socials />
-          <Copyright />
+        <div className="max-sm:mt-24 ">
+          <div className='absolute right-4 bottom-4 '>
+            <Socials />
+            <Copyright />
+          </div>
         </div>
       </div>
     </footer>
