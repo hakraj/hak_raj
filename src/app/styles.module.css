@@ -19,7 +19,7 @@
 .incomplete::after {
   content: "";
   position: absolute;
-  background:  linear-gradient(to bottom right, rgba(233, 233, 255), rgb(233, 233, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+  background:  linear-gradient(to bottom right, rgba(230, 230, 255), rgb(230, 230, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
 }
 
 .incomplete::before {
@@ -75,7 +75,7 @@
 @media screen and (prefers-color-scheme: dark) {
   .incomplete::before,
   .incomplete::after {
-    background:  linear-gradient(to bottom right, rgba(28, 28, 30), rgba(28, 28, 30)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+    background:  linear-gradient(to bottom right, rgba(25, 25, 30), rgba(25, 25, 30)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
   }
   
 }
