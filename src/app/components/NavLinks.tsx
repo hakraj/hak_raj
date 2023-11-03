@@ -12,7 +12,7 @@ const NavLinks = () => {
     case "/":
       return (
         <>
-          <Link className='font-medium max-sm:hidden' href={"/"}>Home</Link>
+          <Link className='text-black max-sm:hidden' href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
           <Link href={"/contact"}>Contact</Link>
         </>
@@ -21,7 +21,7 @@ const NavLinks = () => {
       return (
         <>
           <Link href={"/"}>Home</Link>
-          <Link className='font-medium max-sm:hidden' href={"/about"}>About</Link>
+          <Link className='text-black/75 max-sm:hidden' href={"/about"}>About</Link>
           <Link href={"/contact"}>Contact</Link>
         </>
       )
@@ -30,13 +30,13 @@ const NavLinks = () => {
         <>
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
-          <Link className='font-medium max-sm:hidden' href={"/contact"}>Contact</Link>
+          <Link className='text-black max-sm:hidden' href={"/contact"}>Contact</Link>
         </>
       )
     default:
       return (
         <>
-          <Link className='font-medium max-sm:hidden' href={"/"}>Home</Link>
+          <Link className='text-black max-sm:hidden' href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
           <Link href={"/contact"}>Contact</Link>
         </>

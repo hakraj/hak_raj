@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <section className='z-10 projects w-full max-w-6xl pt-28 pb-20'>
 
-      <div className='ihub flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='ihub flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://ihub-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <img fetchPriority="high" src="/project/ihub/ihub-mac.png" alt="Screenshot of the ihub product" className="block max-w-full rounded-xl sm:rounded-2xl" />
@@ -43,24 +43,24 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className={`w-[30%] md:w-1/5 sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem] ${styles.project} mb-[6vw]`} data-aos="zoom-out-up" data-aos-delay="200" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+        <div className={`w-[30%] md:w-1/5 ${styles.projectMobile} mb-[6vw]`} data-aos="zoom-out-up" data-aos-delay="200" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img fetchPriority="high" src="/project/notify/mobile.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+            <img fetchPriority="high" src="/project/notify/mobile.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[1.5rem] rounded-[1.25rem]" />
           </a>
         </div>
-        <div className={`w-[30%] md:w-1/5 ${styles.project} sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+        <div className={`w-[30%] md:w-1/5 ${styles.projectMobile}`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img fetchPriority="high" src="/project/notify/mobile-explore.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+            <img fetchPriority="high" src="/project/notify/mobile-explore.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[1.5rem] rounded-[1.25rem]" />
           </a>
         </div>
-        <div className={`w-[30%] md:w-1/5 ${styles.project} mt-[6vw] sm:rounded-[3rem] max-sm:p-[1px] max-sm:rounded-[1.5rem]`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+        <div className={`w-[30%] md:w-1/5 ${styles.projectMobile} mt-[6vw] `} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img fetchPriority="high" src="/project/notify/mobile-id.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[2.25rem] rounded-[1.5rem]" />
+            <img fetchPriority="high" src="/project/notify/mobile-id.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[1.5rem] rounded-[1.25rem]" />
           </a>
         </div>
       </div>
 
-      <div className='pennywise flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='pennywise flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://pennywise-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <img fetchPriority="high" src="/project/Pennywise/pennywise-mac.png" alt="Screenshot of the Pennywise product" className="block max-w-full rounded-xl sm:rounded-2xl" />
@@ -74,7 +74,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='gibbon flex flex-wrap items-center mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='gibbon flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <h1 className={`font-bold text-3xl max-sm:text-xl md:text-2xl  ${styles.fontsans} dark:text-white max-w-[7rem] mb-8 cursor-pointer`} > hakraj&apos;s blog </h1>
           <a href="https://blog-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
