@@ -3,7 +3,7 @@
   background: rgba(255, 255, 255, .3);
   border-radius: 1.75rem;
   box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%), inset 0 1px rgba(255, 255, 255, .6);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
 }
 
 .projectMobile {
@@ -11,14 +11,14 @@
   background: rgba(255, 255, 255, .3);
   border-radius: 2rem;
   box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%), inset 0 1px rgba(255, 255, 255, .6);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
 }
 
 .fontsans {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.incomplete {
+/* .incomplete {
   position: relative;
   border-radius: 0.75rem;
 }
@@ -38,8 +38,8 @@
   border-top-left-radius: 0.75rem;
   border-right: none;
   border-bottom: none;
-  border-top: 0.25rem solid transparent;
-  border-left: 0.25rem solid transparent;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
 }
 
 .incomplete::after {
@@ -50,8 +50,21 @@
   border-bottom-right-radius: 0.75rem;
   border-left: none;
   border-top: none;
-  border-bottom: 0.25rem solid transparent;
-  border-right: 0.25rem solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+} */
+
+.incomplete {
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  background: 
+  radial-gradient(circle at 100% 100%, rgb(230, 230, 255) 0, rgb(230, 230, 255) 4px, transparent 4px) 0% 0%/10px 10px no-repeat,
+  radial-gradient(circle at 0% 100%, rgb(230, 230, 255) 0, rgb(230, 230, 255) 4px, transparent 4px) 100% 0%/10px 10px no-repeat,
+  radial-gradient(circle at 100% 0%, rgb(230, 230, 255) 0, rgb(230, 230, 255) 4px, transparent 4px) 0% 100%/10px 10px no-repeat,
+  radial-gradient(circle at 0% 0%, rgb(230, 230, 255) 0, rgb(230, 230, 255) 4px, transparent 4px) 100% 100%/10px 10px no-repeat,
+  linear-gradient(rgb(230, 230, 255), rgb(230, 230, 255)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat,
+  linear-gradient(rgb(230, 230, 255), rgb(230, 230, 255)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat,
+  linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255) 10%, transparent 10%, transparent 90%, rgb(215, 215, 255) 90%, rgb(170, 155, 255));
 }
 
 @keyframes gradient {
@@ -79,14 +92,33 @@
   animation: gradient 1.5s ease infinite alternate;
 }
 
+.contactInput {
+  border-bottom: 2px solid transparent;
+  background: linear-gradient(to bottom right, rgba(230, 230, 255), rgb(230, 230, 255)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+}
 
-@media screen and (prefers-color-scheme: dark) {
+.label {
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 10px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.contactInput:focus + .label,
+.contactInput:not(:placeholder-shown) + .label {
+  top: -8px;
+  font-size: 12px;
+}
+/* @media screen and (prefers-color-scheme: dark) {
   .incomplete::before,
   .incomplete::after {
     background:  linear-gradient(to bottom right, rgba(25, 25, 30), rgba(25, 25, 30)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
   }
   
-}
+} */
 
 @media screen and (max-width: 640px) {
   .project {

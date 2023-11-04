@@ -48,7 +48,7 @@ const Projects = () => {
             <img fetchPriority="high" src="/project/notify/mobile.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[1.5rem] rounded-[1.25rem]" />
           </a>
         </div>
-        <div className={`w-[30%] md:w-1/5 ${styles.projectMobile}`} data-aos="zoom-out-up" data-aos-delay="400" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+        <div className={`w-[30%] md:w-1/5 ${styles.projectMobile}`} data-aos="zoom-out-up" data-aos-delay="300" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <img fetchPriority="high" src="/project/notify/mobile-explore.png" alt="Screenshot of the notify product" className="block max-w-full sm:rounded-[1.5rem] rounded-[1.25rem]" />
           </a>

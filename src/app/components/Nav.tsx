@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const Nav = () => {
   return (
-    <div className='nav z-10 w-full max-w-6xl flex items-center justify-between font-mono text-sm'>
+    <div className='nav z-10 w-full max-w-6xl flex items-center justify-between text-sm'>
       <Link href={"/"}>
         <Logo />
       </Link>
