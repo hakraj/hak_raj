@@ -120,7 +120,8 @@
     radial-gradient(circle at 100% 0%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 0% 100%/10px 10px no-repeat,
     radial-gradient(circle at 0% 0%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 100% 100%/10px 10px no-repeat,
     linear-gradient(rgb(25, 25, 30), rgb(25, 25, 30)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat,
-    linear-gradient(rgb(25, 25, 30), rgb(25, 25, 30)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat;
+    linear-gradient(rgb(25, 25, 30), rgb(25, 25, 30)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat,
+    linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255) 10%, transparent 10%, transparent 90%, rgb(215, 215, 255) 90%, rgb(170, 155, 255));
   }
   
   .contactInput {
