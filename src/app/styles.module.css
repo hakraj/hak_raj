@@ -112,13 +112,22 @@
   top: -8px;
   font-size: 12px;
 }
-/* @media screen and (prefers-color-scheme: dark) {
-  .incomplete::before,
-  .incomplete::after {
-    background:  linear-gradient(to bottom right, rgba(25, 25, 30), rgba(25, 25, 30)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+
+@media screen and (prefers-color-scheme: dark) {
+  .incomplete {
+    background: radial-gradient(circle at 100% 100%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 0% 0%/10px 10px no-repeat,
+    radial-gradient(circle at 0% 100%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 100% 0%/10px 10px no-repeat,
+    radial-gradient(circle at 100% 0%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 0% 100%/10px 10px no-repeat,
+    radial-gradient(circle at 0% 0%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 100% 100%/10px 10px no-repeat,
+    linear-gradient(rgb(25, 25, 30), rgb(25, 25, 30)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat,
+    linear-gradient(rgb(25, 25, 30), rgb(25, 25, 30)) 50% 50%/calc(100% - 0.625rem) calc(100% - 0.625rem) no-repeat;
   }
   
-} */
+  .contactInput {
+    background: linear-gradient(to bottom right, rgba(25, 25, 30), rgb(25, 25, 30)) padding-box, linear-gradient(to bottom right, rgb(215, 215, 255), rgb(170, 155, 255)) border-box;
+  }
+  
+}
 
 @media screen and (max-width: 640px) {
   .project {
