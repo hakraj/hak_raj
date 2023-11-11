@@ -32,5 +32,9 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
+a {
+  user-select: none;
+}
+
 /* GLOBAL END HERE */
 

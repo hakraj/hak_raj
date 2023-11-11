@@ -30,7 +30,7 @@ const Projects = () => {
             <path d="M4.512 77V37.592H19.104V77H4.512ZM12 29.48C9.696 29.48 7.744 28.68 6.144 27.08C4.544 25.448 3.744 23.512 3.744 21.272C3.744 19.032 4.544 17.096 6.144 15.464C7.776 13.8 9.728 12.968 12 12.968C13.504 12.968 14.88 13.352 16.128 14.12C17.376 14.856 18.384 15.848 19.152 17.096C19.92 18.344 20.304 19.736 20.304 21.272C20.304 23.512 19.488 25.448 17.856 27.08C16.224 28.68 14.272 29.48 12 29.48Z" fill="#0080FE" />
           </svg>
           <a href="https://ihub-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:tet-underline '>The Ultimate Shopping Destination, Your One Stop for All Needs.</h2>
+            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>The Ultimate Shopping Destination, Your One Stop for All Needs.</h2>
           </a>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Projects = () => {
         <div className='md:w-1/5 min-w-[6rem]  m-8' data-aos="fade-right" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <h1 className={`text-[#f5ba13] text-4xl max-sm:text-3xl ${monofett.className} max-w-[7rem] mb-8 cursor-pointer`} > notify </h1>
           <a href="https://notify-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:tet-underline '>Stay Informed, Share ideas. Elevate your experience with notify.</h2>
+            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Stay Informed, Share ideas. Elevate your experience with notify.</h2>
           </a>
         </div>
 
@@ -69,21 +69,21 @@ const Projects = () => {
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <h1 className={`text-[#0d6efd] font-bold text-3xl max-sm:text-xl md:text-2xl  ${styles.fontsans} max-w-[7rem] mb-8 cursor-pointer`} > Pennywise </h1>
           <a href="https://pennywise-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:tet-underline '>Transform Your Banking Experience with Pennywise.</h2>
+            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Transform Your Banking Experience with Pennywise.</h2>
           </a>
         </div>
       </div>
 
       <div className='gibbon flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <h1 className={`font-bold text-3xl max-sm:text-xl md:text-2xl  ${styles.fontsans} dark:text-white max-w-[7rem] mb-8 cursor-pointer`} > hakraj&apos;s blog </h1>
-          <a href="https://blog-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:tet-underline '>A Documentation of My Personal Journey and Experience.</h2>
+          <h1 className=' font-medium text-white text-3xl max-sm:text-2xl max-w-[7rem] mb-8 cursor-pointer'><img className=' inline w-8 h-8' src="/project/trackip/logo.png" alt="logo" /> Trackip</h1>
+          <a href="https://trackip-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Navigate the Digital Landscape Accurately.</h2>
           </a>
         </div>
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <a href="https://blog-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img fetchPriority="high" src="/project/blog/blog-mac.png" alt="Screenshot of the Blog product" className="block max-w-full rounded-xl sm:rounded-2xl" />
+          <a href="https://trackip-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img fetchPriority="high" src="/project/trackip/trackip-mac.png" alt="Screenshot of the Trackip product" className="block max-w-full rounded-xl sm:rounded-2xl" />
           </a>
         </div>
       </div>
