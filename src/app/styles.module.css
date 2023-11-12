@@ -113,6 +113,16 @@
   font-size: 12px;
 }
 
+.contactBtn {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.contactBtn:focus {
+  outline: none !important;
+}
+
+
 @media screen and (prefers-color-scheme: dark) {
   .incomplete {
     background: radial-gradient(circle at 100% 100%, rgb(25, 25, 30) 0, rgb(25, 25, 30) 4px, transparent 4px) 0% 0%/10px 10px no-repeat,

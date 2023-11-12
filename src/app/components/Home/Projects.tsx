@@ -76,7 +76,7 @@ const Projects = () => {
 
       <div className='gibbon flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <h1 className=' font-medium text-white text-3xl max-sm:text-2xl max-w-[7rem] mb-8 cursor-pointer'><img className=' inline w-8 h-8' src="/project/trackip/logo.png" alt="logo" /> Trackip</h1>
+          <h1 className=' font-medium text-white text-3xl max-sm:text-2xl max-w-[9rem] mb-8 cursor-pointer'><img className=' inline w-8 h-8' src="/project/trackip/logo.png" alt="logo" /> Trackip</h1>
           <a href="https://trackip-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Navigate the Digital Landscape Accurately.</h2>
           </a>
