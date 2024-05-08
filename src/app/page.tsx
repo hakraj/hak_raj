@@ -3,6 +3,7 @@ import IntroHome from './components/Home/intro';
 import Feature from "./components/Home/Feature"
 import Projects from './components/Home/Projects';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <IntroHome />
         <Feature />
         <Projects />
+        <ContactForm />
       </main>
       <Footer />
     </>
