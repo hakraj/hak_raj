@@ -1,4 +1,4 @@
-import GetInTouchbtn from "../GetInTouchbtn";
+import resumeBtn from "../resumeBtn";
 import Socials from "../socials";
 
 
@@ -8,7 +8,7 @@ const AboutTitle = () => {
       <h1 className="text-4xl leading-normal font-medium">Hakeem Raji Adekunle&mdash;<br /><span>Brilliant Young Mind</span></h1>
       <div className="flex flex-wrap items-center space-x-12">
 
-        <GetInTouchbtn />
+        <resumeBtn />
         <Socials />
       </div>
     </div>
