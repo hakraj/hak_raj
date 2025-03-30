@@ -17,6 +17,25 @@ const Projects = () => {
   return (
     <section className='z-10 projects w-full max-w-6xl pt-28 pb-20'>
 
+      <div className='exboard flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
+        <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+          <div className="max-w-[9rem] mb-8 flex it">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+              <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+            </svg>
+            <h1 className=' font-medium font-inter text-white text-3xl max-sm:text-2xl cursor-pointer'>Exboard</h1>
+          </div>
+          <a href="https://ex-board-fe.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Empowering minds through cognitive thinking</h2>
+          </a>
+        </div>
+        <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+          <a href="https://ex-board-fe.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img fetchPriority="high" src="/project/exboard/exboard.png" alt="Screenshot of the Exboard product" className="block max-w-full rounded-xl sm:rounded-2xl" />
+          </a>
+        </div>
+      </div>
+
       <div className='ihub flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className={`md:w-2/3  ${styles.project} max-sm:p-2 max-sm:rounded-[1.25rem]`} data-aos="zoom-out-up" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
           <a href="https://ihub-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
@@ -74,9 +93,12 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='gibbon flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
+      <div className='trackip flex flex-wrap items-center mb-[10vh] md:mb-[15vh] min-h-[40vh] m-auto' >
         <div className='md:w-1/5 m-8' data-aos="fade-left" data-aos-delay="0" data-aos-offset="180" data-aos-duration="1000" data-aos-easing="ease-out-quad" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-          <h1 className=' font-medium text-white text-3xl max-sm:text-2xl max-w-[9rem] mb-8 cursor-pointer'><img className=' inline w-8 h-8' src="/project/trackip/logo.png" alt="logo" /> Trackip</h1>
+          <div className="max-w-[9rem] mb-8 flex it">
+            <img className=' inline w-8 h-8' src="/project/trackip/logo.png" alt="logo" />
+            <h1 className=' font-medium text-white text-3xl max-sm:text-2xl cursor-pointer'>Trackip</h1>
+          </div>
           <a href="https://trackip-hakraj.vercel.app" target="_blank" rel="noopener noreferrer">
             <h2 className='text-xl md:text-2xl  font-medium my-8 hover:text-underline '>Navigate the Digital Landscape Accurately.</h2>
           </a>
